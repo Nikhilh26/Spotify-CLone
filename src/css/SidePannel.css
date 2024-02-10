@@ -1,0 +1,101 @@
+.side-panel{
+    width: 28vw;
+    height: 99vh;
+    border: 2px red solid;
+    min-width: 400px;
+    /* max-width: none; */
+}
+
+.home-search{
+    height: 12.5%;
+    border: 2px blue solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto auto;
+    margin-top: 2vh;
+    border-radius: 1vh;
+    background-color: #121212;
+    padding-left: 2vh;
+}
+
+.home-btn{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.search-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-btn :hover{
+    font-weight: bolder;
+}
+
+.home-btn :hover{
+    font-weight: bolder;
+}
+
+.Style-icon:hover{
+    /* find it */
+}
+
+/* Lower Part */
+.library-and-playlist{
+    border: 2px blue solid;
+    width: 90%;
+    margin: 2vh auto;
+    height: 80%;
+    border-radius: 1vh;
+    background-color: #121212;
+    padding-left: 2vh;
+}
+
+.library{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.library:hover{
+    font-weight: bolder;
+}
+
+.Recent-search-and-list{
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    margin-top: 2vh;
+    overflow-y: hidden;
+}
+.Recent-search-and-list:hover{
+    overflow-y: scroll;
+}
+.recent-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 330px;
+}
+
+.recent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.recent > div{
+    margin-right: 0.5vw;
+}
+
+.recent:hover{
+    font-weight: bolder;
+}
+::-webkit-scrollbar-track{
+    /* work on this one */
+}

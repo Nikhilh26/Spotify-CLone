@@ -1,0 +1,15 @@
+.headerComponent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+    align-items: center;
+}
+
+.search-and-redirect{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
